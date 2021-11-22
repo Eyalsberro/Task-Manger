@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url(/img/tile.jpg);
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+header {
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.container {
+  background-image: url(/img/formbg.jpg);
+  height: 50vh;
+  width: 50vw;
+  padding-top: 10px;
+}
+
+.container #textInput {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  font-size: 3rem;
+  font-family: 'Caveat', cursive;
+  margin-left: 70px;
+}
+
+.container .date {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-left: 70px;
+}
+
+.container .date input {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.container .date p {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.container .time {
+  margin-left: 70px;
+}
+
+.container .time input {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.container .time p {
+  font-weight: bold;
+  display: inline;
+}
+
+.container .btns {
+  margin-left: 70px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.container .warning {
+  margin-left: 70px;
+  color: red;
+  font-size: 25px;
+  margin-top: 20px;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0);
+  border: 0px solid rgba(0, 0, 0, 0.125);
+  margin-left: 70px;
+  display: inline-block;
+}
+
+.card .card-text {
+  overflow-y: scroll;
+  height: 12rem;
+  width: 14rem;
+  margin-top: 15px;
+}
+
+.card .card-text::-webkit-scrollbar {
+  display: none;
+}
+
+.card .inputsDateTime {
+  position: absolute;
+  bottom: 0;
+}
+
+.card .inputsDateTime .inputTime {
+  margin-top: -20px;
+}
+
+.card .far {
+  margin-left: 205px;
+  margin-top: 18px;
+  visibility: hidden;
+}
+
+.card .btnIcon {
+  background-color: rgba(255, 235, 205, 0);
+  border: 0;
+  width: 1px;
+}
+
+.card {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.card:hover .far {
+  visibility: visible;
+}
+/*# sourceMappingURL=style.css.map */

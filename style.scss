@@ -1,0 +1,154 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body { 
+     background-image: url(/img/tile.jpg);
+     align-content: center;
+     
+}
+
+header {
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+
+.container {
+    background-image: url(/img/formbg.jpg);
+    height: 50vh;
+    width: 50vw;
+    // position: relative;
+    padding-top: 10px;
+    
+    
+    #textInput{
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0);
+        border: none;
+        font-size: 3rem;
+        font-family: 'Caveat', cursive;
+        margin-left: 70px;
+        
+    }
+    
+    .date{
+        display: inline-flex;
+        margin-left: 70px;
+        
+    input {
+           margin-left: 20px;
+           margin-top: 10px; 
+            
+        }
+    p {
+        font-weight: bold;
+        margin-top: 10px; 
+        }
+
+    }
+
+    .time {
+        margin-left: 70px;
+
+        input {
+            margin-left: 20px;
+            margin-top: 5px; 
+        }
+
+        p {
+         font-weight: bold;
+         display: inline;
+        }
+ 
+   
+ 
+    } 
+    
+    
+    .btns {
+        margin-left: 70px;
+        margin-top: 50px;
+        position: relative;
+        
+    }
+    
+    .warning {
+        margin-left: 70px;
+        color: red;
+        font-size: 25px;
+        margin-top: 20px;
+        font-family: 'Alfa Slab One', cursive;
+     } 
+
+}
+
+
+// Second section//
+
+
+.card {
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px solid rgba(0,0,0,.125);
+    margin-left: 70px;
+    display: inline-block;
+    
+    
+    .card-text{
+        overflow-y: scroll;
+        height: 12rem;
+        width: 14rem;
+        margin-top: 15px;
+    }
+
+    .card-text::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .inputsDateTime{
+        position: absolute;
+        bottom: 0;
+
+        .inputTime{
+            margin-top: -20px;
+        }
+    }
+
+    .far{
+        margin-left: 205px;
+        margin-top: 18px;
+        visibility: hidden;
+    }
+
+    .btnIcon{
+        background-color: rgba(255, 235, 205, 0);
+        border: 0;
+        width: 1px;
+    }
+}
+
+
+
+.card {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+
+.card:hover .far {
+    visibility: visible;
+
+} 
+
